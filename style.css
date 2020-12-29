@@ -1,0 +1,411 @@
+div.container3 {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #EBF5FB;
+    border-radius: 2px;
+}
+
+.logo {
+    display: block;
+    width: 55%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo, .v-Ong {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: rgba(14, 46, 223, 0.466);
+    border-radius: 10px;
+    color: white;
+}
+/* .navbar{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    background: lightblue;
+    border-radius: 10px;
+    color: white;
+} */
+
+.texto{
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #a4b0be;
+    border-radius: 10px;
+    color: black;
+}
+
+.v-Ong {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: blue;
+}
+
+.univ {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: blue;
+    padding: 20px;
+    margin: 20px;
+}
+
+.FO {
+    text-align: justify;
+    font-size: 35px;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: blue;
+}
+
+.Rest {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: blue;
+}
+
+.VD {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: blue;
+}
+
+#objetivo {
+    text-align: center;
+    font-size: 15px;
+    background: #ffffff;
+}
+
+#nd {
+    text-align: center;
+    font-size: 25px;
+}
+
+#matriz, #tabla, #ceros, #fo {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #000;
+    background-color: rgb(214, 184, 184);
+}
+
+tr, td {
+    width: 10%;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+}
+
+th {
+    background-color: yellow;
+}
+
+/* 
+ .Encabezado{
+    background: black;
+}
+
+tbody{
+    background: yellow;
+} */
+
+#nr {
+    text-align: center;
+    font-size: 25px;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+}
+
+hr {
+    color: red;
+}
+
+.btn {
+    text-align: center;
+    font-size: 25px;
+    margin-left: 0 auto !important;
+    margin-right: 0 auto !important;
+}
+
+footer {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: black;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+    .titulo {
+        text-align: center;
+        font-size: 25px;
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: black;
+        color: white;
+    }
+    .texto{
+        text-align: justify;
+        font-size: 16px;
+        margin-top: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background: #eccc68;
+        color: black;
+    }
+    footer {
+        text-align: center;
+        font-size: 25px;
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: black;
+        color: white;
+    }
+    .univ {
+        text-align: center;
+        font-size: 35px;
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: blue;
+        padding: 20px;
+        margin: 20px;
+    }
+    .btn {
+        text-align: center;
+        font-size: 25px;
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: black;
+        color: white;
+    }
+    
+.FO {
+    text-align: justify;
+    font-size: 35px;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: blue;
+}
+
+.Rest {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: blue;
+}
+
+.VD {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: blue;
+}
+
+#objetivo {
+    text-align: center;
+    font-size: 15px;
+    background: #ffffff;
+}
+
+#nd {
+    text-align: center;
+    font-size: 25px;
+}
+
+#matriz, #tabla, #ceros, #fo {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #000;
+    background-color: rgb(214, 184, 184);
+}
+
+tr, td {
+    width: 10%;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+}
+
+th {
+    background-color: yellow;
+}
+    input {
+        width: 50%;
+      }
+}
+
+
+
+
+@media only screen and (max-width: 375px) {
+    body {
+        background-color: lightblue;
+    }
+    .titulo {
+        text-align: center;
+        font-size: 25px;
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: black;
+        color: white;
+    }
+    .texto{
+        text-align: justify;
+        font-size: 16px;
+        margin-top: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background: #eccc68;
+        color: black;
+    }
+    footer {
+        text-align: center;
+        font-size: 25px;
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: black;
+        color: white;
+    }
+    .univ {
+        text-align: center;
+        font-size: 35px;
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: blue;
+        padding: 5px;
+        margin: 5px;
+    }
+    .btn {
+        text-align: center;
+        font-size: 25px;
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: black;
+        color: white;
+    }
+    input {
+        width: 50%;
+      }
+}
+
+
+
+
+@media only screen and (max-width: 412px) {
+    body {
+        background-color: lightblue;
+    }
+    .titulo {
+        text-align: center;
+        font-size: 25px;
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: black;
+        color: white;
+    }
+    .texto{
+        text-align: justify;
+        font-size: 16px;
+        margin-top: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background:#eccc68;
+        color: black;
+    }
+    footer {
+        text-align: center;
+        font-size: 25px;
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: black;
+        color: white;
+    }
+    .univ {
+        text-align: center;
+        font-size: 35px;
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: blue;
+        padding: 5px;
+        margin: 5px;
+    }
+    .btn {
+        text-align: center;
+        font-size: 25px;
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: black;
+        color: white;
+    }
+    input {
+        width: 50%;
+      }
+}
